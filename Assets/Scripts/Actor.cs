@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Git test를 위한 주석 1
+// Git test를 위한 주석 2
 public class Actor : MonoBehaviour
 {
     [SerializeField]
@@ -34,8 +36,7 @@ public class Actor : MonoBehaviour
             return crashDamage;
         }
     }
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         Initialize();
@@ -45,8 +46,7 @@ public class Actor : MonoBehaviour
     {
         CurrentHP = MaxHP;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         UpdateActor();
